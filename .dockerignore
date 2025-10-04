@@ -1,0 +1,55 @@
+# Don't copy these into Docker image
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Vector DB (will be created at runtime)
+qdrant_db/
+qdrant_storage/
+chroma_db/
+
+# Logs
+logs/
+*.log
+
+# Environment (use Railway env vars instead)
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# Documentation (not needed in container)
+DEPLOYMENT.md
+DEPLOY_CHECKLIST.md
+READY_TO_DEPLOY.md
+CHANGELOG.md
+CONTRIBUTING.md
+memory-bank/
+docs/archive/
+
+# Testing
+.pytest_cache/
+tests/
+
+# Frontend (deployed separately on Vercel)
+frontend/
+
