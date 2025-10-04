@@ -1,0 +1,22 @@
+# Railway deployment requirements (minimal to avoid timeout)
+
+# Core RAG
+openai>=1.12.0
+groq>=0.4.0
+
+# Vector Database
+qdrant-client>=1.7.1
+
+# Embeddings (sentence-transformers with minimal deps)
+sentence-transformers>=2.2.2
+numpy>=1.24.0
+
+# API (NO streamlit - not needed for backend)
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+pydantic>=2.5.0
+
+# Utilities
+python-dotenv>=1.0.0
+
