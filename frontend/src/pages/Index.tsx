@@ -135,6 +135,9 @@ const Index = () => {
               <h1 className="text-2xl md:text-3xl font-display font-black tracking-tight">
                 WTF Podcast Chat
               </h1>
+              <p className="text-sm text-muted-foreground mt-1">
+                Made with ❤️ by Varsha Ryali
+              </p>
               {activeTopicObject && (
                 <Badge 
                   variant="secondary" 
