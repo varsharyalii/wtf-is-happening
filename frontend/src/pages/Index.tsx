@@ -243,6 +243,14 @@ const Index = () => {
         </div>
           </div>
         </div>
+        {/* Footer */}
+        <footer className="relative z-10 bg-background/80 backdrop-blur-sm flex-shrink-0 mt-4">
+          <div className="w-full px-6 py-4 flex items-center justify-center">
+            <p className="text-sm text-muted-foreground">
+              Made with ❤️ by Varsha Ryali (I want to work @ WTF 🥺)
+            </p>
+          </div>
+        </footer>
       </div>
     </div>
   );
