@@ -24,6 +24,9 @@ const WelcomeScreen = () => {
       <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-md font-medium">
         I've binged all the WTF episodes. Let's talk!
       </p>
+      <p className="text-sm text-muted-foreground mt-2">
+        Made with ❤️ by Varsha Ryali
+      </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-3xl">
         {suggestions.map((suggestion, index) => (
