@@ -22,7 +22,7 @@ export const TOPICS: Topic[] = [
     description: "Explore AI innovation with leaders from OpenAI, Meta, and YouTube",
     contextPrompt: "In the context of AI disruption, innovation, and Silicon Valley insights",
     seedQuestions: [
-      "What did Sam Altman say about AI safety and AGI?",
+      "Will AI take over all our jobs? What can I do to protect myself?",
       "How does Yann LeCun view the future of AI research?",
       "What are the biggest challenges in AI product development?"
     ]
